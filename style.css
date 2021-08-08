@@ -13,6 +13,7 @@ body {
   align-items: center;
   font-family: 'Spartan', sans-serif;
   font-size: 12px;
+  flex-direction: column;
 }
 
 .player-container
@@ -128,4 +129,19 @@ h3 {
     top: -10px;
     left: 100px;
   }
+}
+
+footer
+{
+  text-align: center;
+  margin-top: 25px;
+  font-family: 'McLaren', cursive;
+  letter-spacing: 1px;
+}
+
+footer a,a:visited
+{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
